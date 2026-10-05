@@ -1,0 +1,24 @@
+.chat-preview {
+  flex: 1;
+}
+
+.unread-badge {
+  min-width: 22px;
+  height: 22px;
+  border-radius: 999px;
+  background: #10b981;
+  color: #fff;
+  display: grid;
+  place-items: center;
+  padding: 0 7px;
+  font-size: 12px;
+  font-weight: 800;
+  box-shadow: 0 4px 12px #10b9814d;
+}
+
+.message-row.incoming:last-of-type .message-bubble {
+  border-color: #10b981;
+  box-shadow:
+    0 0 0 3px #10b98124,
+    0 8px 22px #16202a12;
+}
